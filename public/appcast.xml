@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Nudge Updates</title>
+    <link>https://nudge-daily.vercel.app/appcast.xml</link>
+    <description>Updates for Nudge</description>
+    <language>en</language>
+
+    <item>
+      <title>Nudge 1.0</title>
+      <description><![CDATA[
+        <h2>Nudge 1.0</h2>
+        <ul>
+          <li>Schedule view with time blocks, countdown, and progress</li>
+          <li>Todo mode with priorities, descriptions, and quick-add</li>
+          <li>Personalized onboarding with name and widget mode selection</li>
+          <li>20-20-20 eye break reminders</li>
+          <li>Water reminders</li>
+          <li>Configurable snap-to-corner</li>
+          <li>Auto-updates via Sparkle</li>
+        </ul>
+      ]]></description>
+      <pubDate>Sun, 13 Apr 2026 18:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://nudge-daily.vercel.app/updates/Nudge-1.0.tar.gz"
+        sparkle:version="1"
+        sparkle:shortVersionString="1.0"
+        length="3387967"
+        type="application/octet-stream"
+        sparkle:edSignature="bOE319d4wyFTqllgQMg6jCLDY4Bxg2cU8GXHq3P+VtVFw2xeh55uIc1XwDrrBUxR+is8BOGIPygmD2VxmbGRBQ=="
+      />
+    </item>
+
+  </channel>
+</rss>
