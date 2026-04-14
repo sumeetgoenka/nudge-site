@@ -7,6 +7,29 @@
     <language>en</language>
 
     <item>
+      <title>Nudge 1.2.1</title>
+      <description><![CDATA[
+        <h2>Nudge 1.2.1</h2>
+        <ul>
+          <li>Apple traffic lights are now built into the minimized HUD — red hides the app, yellow tucks it away</li>
+          <li>Expand chevron moved to the bottom-right of the HUD to clear room for the traffic lights</li>
+          <li>Expanded-view wordmark shifted right so the traffic lights sit comfortably on the rounded surface</li>
+          <li>Sparkle update check tightened to every 5 minutes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 14 Apr 2026 16:30:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://nudge-daily.vercel.app/updates/Nudge-1.2.1.tar.gz"
+        sparkle:version="4"
+        sparkle:shortVersionString="1.2.1"
+        length="3383544"
+        type="application/octet-stream"
+        sparkle:edSignature="7PgcsDDhDkUQihbPbGhEVkZBP0r/tjsABrf9Mh34R7jP+tU4TjKvyZfPUBEJz5EU6H+ZxAuK4qO8LvxOwjvjAg=="
+      />
+    </item>
+
+    <item>
       <title>Nudge 1.2.0</title>
       <description><![CDATA[
         <h2>Nudge 1.2.0</h2>
