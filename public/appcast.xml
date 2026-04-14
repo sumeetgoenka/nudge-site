@@ -7,6 +7,52 @@
     <language>en</language>
 
     <item>
+      <title>Nudge 1.2.0</title>
+      <description><![CDATA[
+        <h2>Nudge 1.2.0</h2>
+        <ul>
+          <li>Standalone app with a real dock icon (no longer runs as a background agent)</li>
+          <li>Expanded view is a proper titled window — use the yellow traffic light to collapse back to the HUD, red to hide the window entirely</li>
+          <li>Standard macOS menu: Cmd+Q quits, Cmd+H hides, Cmd+M minimizes</li>
+          <li>Removed the custom quit button, the "Quit Nudge" card, and the daily-intention prompt</li>
+          <li>Removed the launchd auto-restart agent — Nudge now behaves like a normal Mac app</li>
+          <li>Sparkle check interval tightened to 10 minutes</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://nudge-daily.vercel.app/updates/Nudge-1.2.0.tar.gz"
+        sparkle:version="3"
+        sparkle:shortVersionString="1.2.0"
+        length="3383364"
+        type="application/octet-stream"
+        sparkle:edSignature="GMZA/wjVLFN84nZ4VdHcdN4cegTkuyPUJHgkIToOlb0INaTtivSgLReejEAS9lXmQH89aUX/tK3QeXlV5o4dAQ=="
+      />
+    </item>
+
+    <item>
+      <title>Nudge 1.1</title>
+      <description><![CDATA[
+        <h2>Nudge 1.1</h2>
+        <ul>
+          <li>Removed the unnecessary yellow minimize button from the minimized view (only the red quit button remains)</li>
+          <li>Now Developer ID signed and notarized by Apple</li>
+        </ul>
+      ]]></description>
+      <pubDate>Tue, 14 Apr 2026 06:00:00 +0000</pubDate>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://nudge-daily.vercel.app/updates/Nudge-1.1.tar.gz"
+        sparkle:version="2"
+        sparkle:shortVersionString="1.1"
+        length="3389764"
+        type="application/octet-stream"
+        sparkle:edSignature="aFXx5fvKGK6lfhvOJfudhXFOTH3oFYVomkbvxIM7B178QjjFVeebhxHnXUarGI3A006GJnOLHJHfQ241RpC+Aw=="
+      />
+    </item>
+
+    <item>
       <title>Nudge 1.0</title>
       <description><![CDATA[
         <h2>Nudge 1.0</h2>
