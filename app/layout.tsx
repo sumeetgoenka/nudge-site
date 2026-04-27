@@ -13,21 +13,70 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const SITE_URL = "https://nudge.focusdragon.app";
+
 export const metadata: Metadata = {
-  title: "Nudge — Your Day, Visualized",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Nudge — Floating HUD for macOS that keeps you on track",
+    template: "%s · Nudge",
+  },
   description:
-    "A beautiful floating HUD for macOS that keeps your schedule, todos, and focus on track — without getting in the way.",
+    "Nudge is a free macOS app that floats a tiny HUD on every screen showing your current task, time remaining, and what's next. No notifications, no cloud, no accounts.",
+  keywords: [
+    "macOS productivity app",
+    "floating HUD Mac",
+    "Pomodoro Mac",
+    "schedule HUD",
+    "always-on-top schedule",
+    "menu bar productivity",
+    "study schedule app Mac",
+    "daily routine app macOS",
+    "time blocking Mac",
+    "free productivity Mac app",
+  ],
+  authors: [{ name: "Nudge" }],
+  creator: "Nudge",
+  publisher: "Nudge",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "Nudge",
+    title: "Nudge — Floating HUD for macOS",
+    description:
+      "A tiny always-on schedule HUD for macOS. Free, notarized, local-first.",
+    url: SITE_URL,
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "Nudge" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nudge — Floating HUD for macOS",
+    description:
+      "A tiny always-on schedule HUD for macOS. Free, notarized, local-first.",
+    images: ["/opengraph-image"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  icons: { icon: "/icon.png", apple: "/apple-icon.png" },
+  applicationName: "Nudge",
+  appleWebApp: { capable: true, title: "Nudge" },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
       <body className="min-h-full flex flex-col bg-[#0a0a0a] text-white">
         {children}
