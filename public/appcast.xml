@@ -2,9 +2,29 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Nudge Updates</title>
-    <link>https://nudge-daily.vercel.app/appcast.xml</link>
+    <link>https://nudge.focusdragon.app/appcast.xml</link>
     <description>Updates for Nudge</description>
     <language>en</language>
+
+    <item>
+      <title>Nudge 1.2.2</title>
+      <description><![CDATA[
+        <h2>Nudge 1.2.2</h2>
+        <ul>
+          <li>Auto-update feed migrated to nudge.focusdragon.app — the new canonical home.</li>
+          <li>Background fixes; no behaviour changes vs 1.2.1.</li>
+        </ul>
+      ]]></description>
+      <pubDate>Mon, 27 Apr 2026 18:30:00 +0000</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://nudge.focusdragon.app/Nudge.dmg"
+        sparkle:edSignature="lAtn8XMWSmqdblkWbi5t1tjt6ruPLnE11QV77G+42/Ac2z/ty5t8KHy1O/UhnDQolbTWv89hiFzdQlFTJOiIBw=="
+        length="3451854"
+        type="application/octet-stream" />
+    </item>
 
     <item>
       <title>Nudge 1.2.1</title>
@@ -18,87 +38,13 @@
         </ul>
       ]]></description>
       <pubDate>Tue, 14 Apr 2026 16:30:00 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://nudge-daily.vercel.app/updates/Nudge-1.2.1.tar.gz"
-        sparkle:version="4"
-        sparkle:shortVersionString="1.2.1"
-        length="3383544"
-        type="application/octet-stream"
-        sparkle:edSignature="7PgcsDDhDkUQihbPbGhEVkZBP0r/tjsABrf9Mh34R7jP+tU4TjKvyZfPUBEJz5EU6H+ZxAuK4qO8LvxOwjvjAg=="
-      />
-    </item>
-
-    <item>
-      <title>Nudge 1.2.0</title>
-      <description><![CDATA[
-        <h2>Nudge 1.2.0</h2>
-        <ul>
-          <li>Standalone app with a real dock icon (no longer runs as a background agent)</li>
-          <li>Expanded view is a proper titled window — use the yellow traffic light to collapse back to the HUD, red to hide the window entirely</li>
-          <li>Standard macOS menu: Cmd+Q quits, Cmd+H hides, Cmd+M minimizes</li>
-          <li>Removed the custom quit button, the "Quit Nudge" card, and the daily-intention prompt</li>
-          <li>Removed the launchd auto-restart agent — Nudge now behaves like a normal Mac app</li>
-          <li>Sparkle check interval tightened to 10 minutes</li>
-        </ul>
-      ]]></description>
-      <pubDate>Tue, 14 Apr 2026 15:00:00 +0000</pubDate>
-      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://nudge-daily.vercel.app/updates/Nudge-1.2.0.tar.gz"
-        sparkle:version="3"
-        sparkle:shortVersionString="1.2.0"
-        length="3383364"
-        type="application/octet-stream"
-        sparkle:edSignature="GMZA/wjVLFN84nZ4VdHcdN4cegTkuyPUJHgkIToOlb0INaTtivSgLReejEAS9lXmQH89aUX/tK3QeXlV5o4dAQ=="
-      />
-    </item>
-
-    <item>
-      <title>Nudge 1.1</title>
-      <description><![CDATA[
-        <h2>Nudge 1.1</h2>
-        <ul>
-          <li>Removed the unnecessary yellow minimize button from the minimized view (only the red quit button remains)</li>
-          <li>Now Developer ID signed and notarized by Apple</li>
-        </ul>
-      ]]></description>
-      <pubDate>Tue, 14 Apr 2026 06:00:00 +0000</pubDate>
-      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://nudge-daily.vercel.app/updates/Nudge-1.1.tar.gz"
-        sparkle:version="2"
-        sparkle:shortVersionString="1.1"
-        length="3389764"
-        type="application/octet-stream"
-        sparkle:edSignature="aFXx5fvKGK6lfhvOJfudhXFOTH3oFYVomkbvxIM7B178QjjFVeebhxHnXUarGI3A006GJnOLHJHfQ241RpC+Aw=="
-      />
-    </item>
-
-    <item>
-      <title>Nudge 1.0</title>
-      <description><![CDATA[
-        <h2>Nudge 1.0</h2>
-        <ul>
-          <li>Schedule view with time blocks, countdown, and progress</li>
-          <li>Todo mode with priorities, descriptions, and quick-add</li>
-          <li>Personalized onboarding with name and widget mode selection</li>
-          <li>20-20-20 eye break reminders</li>
-          <li>Water reminders</li>
-          <li>Configurable snap-to-corner</li>
-          <li>Auto-updates via Sparkle</li>
-        </ul>
-      ]]></description>
-      <pubDate>Sun, 13 Apr 2026 18:00:00 +0000</pubDate>
-      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
-      <enclosure
-        url="https://nudge-daily.vercel.app/updates/Nudge-1.0.tar.gz"
-        sparkle:version="1"
-        sparkle:shortVersionString="1.0"
-        length="3387967"
-        type="application/octet-stream"
-        sparkle:edSignature="bOE319d4wyFTqllgQMg6jCLDY4Bxg2cU8GXHq3P+VtVFw2xeh55uIc1XwDrrBUxR+is8BOGIPygmD2VxmbGRBQ=="
-      />
+        url="https://nudge.focusdragon.app/updates/Nudge-1.2.1.dmg"
+        length="3855771"
+        type="application/octet-stream" />
     </item>
 
   </channel>
