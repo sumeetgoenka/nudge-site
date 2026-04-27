@@ -7,22 +7,26 @@
     <language>en</language>
 
     <item>
-      <title>Nudge 1.2.2</title>
+      <title>Nudge 1.3.0</title>
       <description><![CDATA[
-        <h2>Nudge 1.2.2</h2>
+        <h2>Nudge 1.3.0 — Fresh start</h2>
         <ul>
-          <li>Auto-update feed migrated to nudge.focusdragon.app — the new canonical home.</li>
-          <li>Background fixes; no behaviour changes vs 1.2.1.</li>
+          <li>Slim minimised view: only the current task's countdown / progress and the next task. Headers, action pills, dots row, and quote moved off the minimised HUD.</li>
+          <li>20-20-20 eye-break and water-reminder overlays now fit the slim panel — no more sudden expansion.</li>
+          <li>Backlog: new "Clear all" pill in the top right (with confirm) — for nuking the loose-ends list in one tap.</li>
+          <li>Removed the daily-intention auto-prompt that fired on every first expand.</li>
+          <li>Ships with an empty schedule — set up your week from More → Edit schedule.</li>
+          <li>Auto-update feed migrated to nudge.focusdragon.app.</li>
         </ul>
       ]]></description>
-      <pubDate>Mon, 27 Apr 2026 18:30:00 +0000</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+      <pubDate>Mon, 27 Apr 2026 19:30:00 +0000</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://nudge.focusdragon.app/Nudge.dmg"
-        sparkle:edSignature="lAtn8XMWSmqdblkWbi5t1tjt6ruPLnE11QV77G+42/Ac2z/ty5t8KHy1O/UhnDQolbTWv89hiFzdQlFTJOiIBw=="
-        length="3451854"
+        sparkle:edSignature="tZjNPEFKOz/U4gWL/h9vROGmky333dpHDGUHI4WYNZkWebCTlhoTMFNJHJ9Hmn6TjlXsYJjGYpwmezpXfjc0Bw=="
+        length="3383356"
         type="application/octet-stream" />
     </item>
 
@@ -33,7 +37,6 @@
         <ul>
           <li>Apple traffic lights are now built into the minimized HUD — red hides the app, yellow tucks it away</li>
           <li>Expand chevron moved to the bottom-right of the HUD to clear room for the traffic lights</li>
-          <li>Expanded-view wordmark shifted right so the traffic lights sit comfortably on the rounded surface</li>
           <li>Sparkle update check tightened to every 5 minutes</li>
         </ul>
       ]]></description>
