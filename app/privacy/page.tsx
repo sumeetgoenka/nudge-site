@@ -36,7 +36,7 @@ export default function Privacy() {
         </p>
         <h2 className="text-xl font-semibold mt-8 mb-3">Contact</h2>
         <p className="text-white/60 leading-relaxed">
-          Questions: <a href="mailto:hello@nudgeapp.dev" className="text-violet-400 hover:underline">hello@nudgeapp.dev</a>
+          Questions: <a href="mailto:anay.goenka@icloud.com" className="text-violet-400 hover:underline">anay.goenka@icloud.com</a>
         </p>
       </main>
       <Footer />

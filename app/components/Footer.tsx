@@ -33,7 +33,7 @@ export function Footer() {
         <div>
           <div className="text-white/40 text-xs uppercase tracking-wider mb-3">Contact</div>
           <ul className="space-y-2 text-white/60">
-            <li><a href="mailto:hello@nudgeapp.dev" className="hover:text-white transition">hello@nudgeapp.dev</a></li>
+            <li><a href="mailto:anay.goenka@icloud.com" className="hover:text-white transition">anay.goenka@icloud.com</a></li>
           </ul>
         </div>
       </div>
